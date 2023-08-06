@@ -42,21 +42,25 @@ button {
     border: none;
 }
 
-.operand {
+.operand,
+#decimal {
     background-color: rgb(58, 58, 58);
     color: white;
 }
 
-.operand:active {
+.operand:active,
+#decimal:active {
     background-color: gray;
 }
 
-.operator {
+.operator,
+#equals {
     background-color: orange;
     color: white;
 }
 
-.operator:active {
+.operator:active,
+#equals:active {
     background-color: rgb(255, 211, 130);
 }
 
