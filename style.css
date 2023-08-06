@@ -47,11 +47,23 @@ button {
     color: white;
 }
 
+.operand:active {
+    background-color: gray;
+}
+
 .operator {
     background-color: orange;
     color: white;
 }
 
+.operator:active {
+    background-color: rgb(255, 211, 130);
+}
+
 .modifier {
     background-color: darkgray;
+}
+
+.modifier:active {
+    background-color: lightgray;
 }
