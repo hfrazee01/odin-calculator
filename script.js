@@ -5,6 +5,11 @@ let displayValue = "0";
 let hasDecimal = false;
 let buttons = document.querySelectorAll('button');
 
+window.addEventListener("keydown", function(e) {
+    const key = document.querySelector(`button[data-key='${e.keyCode}']`);
+    key.click();
+});
+
 function operate(op1, op2, operand) {
     if (operand === "+")
         return op1 + op2;
